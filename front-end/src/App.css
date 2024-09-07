@@ -1,0 +1,131 @@
+/* Ensure the body takes up full height and centers content */
+body {
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  font-family: Arial, sans-serif;
+}
+
+/* Main layout container */
+.main-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+/* Left Section */
+.left-section {
+  flex: 2; /* Takes up equal width */
+  background-color: #8d2af3;
+  color: white;
+  padding: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.text-container {
+  max-width: 400px; /* Control text width */
+}
+
+.left-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.left-section p {
+  font-size: 1.2rem;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1; /* Takes up equal width */
+  background-color: #f8f9fa;
+  padding: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.form-container {
+  width: 300px;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 2rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8d2af3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.form-container button.google-login {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.forgot-password a,
+.create-account a {
+  color: #8d2af3;
+  text-decoration: none;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+}
+
+.navbar.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navbar.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.card {
+  border: none;
+}
+
+.card-body img {
+  width: 50px; /* Adjust the size of your icons */
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.card p {
+  font-size: 14px;
+}

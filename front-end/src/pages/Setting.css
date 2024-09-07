@@ -1,0 +1,75 @@
+/* Sidebar styling adjustments */
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+    padding: 20px; /* Adjust padding to match sidebar content */
+    position: relative;
+    width: 100%; /* Ensure full column width */
+  }
+  
+  .logo {
+    width: 60px; /* Smaller logo size */
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+  .sidebar .nav-link {
+    color: #333;
+    font-size: 14px; /* Slightly larger text */
+    margin-bottom: 10px; /* Increase space between items */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .sidebar .nav-link.active {
+    color: #6c63ff;
+  }
+  
+  .sidebar .nav-link img {
+    width: 24px; /* Slightly larger image size */
+    height: 24px;
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .sidebar .user-info {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  .user-info p {
+    font-size: 14px; /* Slightly larger text */
+  }
+  
+  .user-img {
+    width: 40px; /* Slightly larger user image */
+    height: 40px;
+  }
+  
+  .vertical-line {
+    background-color: #ccc;
+    width: 1px;
+    height: 100vh;
+  }
+  
+  .col-md-9 {
+    padding: 20px; /* Adjust padding for main content */
+  }
+  
+  .container-fluid {
+    padding: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-2 {
+      display: none; /* Hide sidebar on small screens */
+    }
+    .col-md-1 {
+      display: none; /* Hide vertical line on small screens */
+    }
+    .col-md-9 {
+      padding: 20px; /* Ensure padding on mobile */
+    }
+  }
+  

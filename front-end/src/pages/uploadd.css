@@ -1,0 +1,236 @@
+/* General Layout */
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    transform: translateY(-100%);
+}
+
+.navbar.visible {
+    transform: translateY(0);
+}
+
+.navbar a {
+    color: #6c63ff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+    padding: 20px;
+    width: 220px;
+    position: relative;
+    overflow-y: auto;
+}
+
+/* Sidebar links */
+.sidebar .nav-link {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .nav-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.sidebar .nav-link.active {
+    color: #6c63ff;
+}
+
+/* Help link */
+.sidebar .help-section {
+    margin-top: auto;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .help-section a {
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sidebar .help-section img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+/* User info at the bottom */
+.user-info {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info p {
+    font-size: 12px;
+}
+
+/* Vertical line between sidebar and main content */
+.vertical-line {
+    border-left: 2px solid #ccc;
+    height: 100vh;
+    margin-left: 10px;
+}
+
+/* Main content adjustments */
+.col-md-9 {
+    padding-left: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Card styling for Podcast Options */
+.card {
+    padding: 20px;
+    margin-bottom: 10px; /* Reduced margin for tighter spacing */
+    height: 180px; /* More compact card size */
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.card img {
+    max-width: 40px; /* Adjust the icon size */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-body h5 {
+    font-size: 1.1rem; /* Larger font */
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 0.9rem; /* Smaller font for description */
+}
+
+/* File upload section */
+.file-upload-section {
+    border: 2px dashed #6c63ff;
+    padding: 20px; /* Reduced padding for a more compact design */
+    text-align: center;
+    margin-top: 15px; /* Reduced margin above */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    max-width: 600px; /* Adjust width for better fit */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-upload-section p {
+    font-size: 14px;
+    color: #666;
+}
+
+.upload-icon {
+    height: 70px; /* Larger icon size for file upload */
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 16px; /* Adjusted padding for more compact button */
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none; /* Ensure no borders */
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    font-size: 14px;
+    color: #999;
+}
+
+.breadcrumb a {
+    color: #6c63ff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumb span {
+    color: #666;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
