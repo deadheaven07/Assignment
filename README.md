@@ -38,7 +38,7 @@ npm install
 Start the frontend development server:
 npm start
 Running the Project
-Website: Runs on http://localhost:300
+Website: Runs on http://localhost:3000
 Ensure servers are running before you access the website locally.
 
 
