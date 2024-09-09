@@ -1,5 +1,4 @@
 Assignment Details
-To move forward in the interview process, you are required to complete the following assignment:
 
 Task: Create a responsive website from the provided Figma design.
 Tech Stack: MERN (MongoDB, Express, React or Next.js, Node.js).
@@ -14,10 +13,8 @@ Bonus Points:
 Prefer vanilla CSS over other CSS component libraries.
 Emphasize code modularity, readability, and the effective use of hooks and DSA concepts.
 Mention the DSA strategies you used to optimize the code in your video explanation.
-Submission Requirements
-You are required to complete this assignment within the next 4 days.
 
-Upon completion, please provide the following. 
+
 
 GitHub Repository
 
